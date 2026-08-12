@@ -15,3 +15,9 @@ const add2=function(a, b) {
 }
 
 console.log(add2(12, 20));
+// arrow function with block body
+console.log("arrow function with block body");
+const add3=(a, b) => {
+    return a + b;
+}
+console.log(add3(14, 20));
