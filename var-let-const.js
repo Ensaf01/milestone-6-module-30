@@ -7,4 +7,5 @@ let b = 20; // let and const are hoisted but not initialized, so accessing them 
 // can reassign the value of b and can not redeclare it in the same scope
 
 console.log(c); // Error
+//
 const c = 30; // const must be initialized at the time of declaration and cannot be reassigned.
